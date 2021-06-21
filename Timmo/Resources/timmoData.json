@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Document",
+        "id": 1001,
+        "description": "Cette section permet de regrouper toutes les informations sur vos propriétés",
+        "imageName": "DocIcon"
+    },
+    {
+        "name": "Carte",
+        "id": 1002,
+        "description": "Cette section offre un accès à une carte dynamique fournie par Google Maps©",
+        "imageName": "MapIcon"
+    }
+]

@@ -12,9 +12,17 @@
 		CE348D532674C39C003ED28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE348D522674C39C003ED28E /* Assets.xcassets */; };
 		CE348D562674C39D003ED28E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE348D552674C39C003ED28E /* Preview Assets.xcassets */; };
 		CE348D582674C39D003ED28E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE348D572674C39D003ED28E /* Persistence.swift */; };
-		CE348D5B2674C39D003ED28E /* Timmo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE348D592674C39D003ED28E /* Timmo.xcdatamodeld */; };
 		CE348D662674C39F003ED28E /* TimmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE348D652674C39F003ED28E /* TimmoTests.swift */; };
 		CE348D712674C39F003ED28E /* TimmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE348D702674C39F003ED28E /* TimmoUITests.swift */; };
+		CE42AF042680B8EB00E5F22B /* Timmo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE42AF022680B8EA00E5F22B /* Timmo.xcdatamodeld */; };
+		CE99BAE32674E4660026A5E1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BAE22674E45B0026A5E1 /* CircleImage.swift */; };
+		CE99BAEB2674EBD90026A5E1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BAEA2674EBD80026A5E1 /* MapView.swift */; };
+		CE99BAF02674F8520026A5E1 /* timmoData.json in Resources */ = {isa = PBXBuildFile; fileRef = CE99BAEF2674F8510026A5E1 /* timmoData.json */; };
+		CE99BAF52674F8940026A5E1 /* Timmo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BAF42674F8940026A5E1 /* Timmo.swift */; };
+		CE99BAFA2674FA560026A5E1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BAF92674FA550026A5E1 /* ModelData.swift */; };
+		CE99BB0B2674FCE20026A5E1 /* TimmoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BB0A2674FCE20026A5E1 /* TimmoRow.swift */; };
+		CE99BB10267500A80026A5E1 /* TimmoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BB0F267500A70026A5E1 /* TimmoList.swift */; };
+		CE99BB1526750B020026A5E1 /* TimmoDocMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99BB1426750B020026A5E1 /* TimmoDocMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +49,6 @@
 		CE348D522674C39C003ED28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE348D552674C39C003ED28E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE348D572674C39D003ED28E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		CE348D5A2674C39D003ED28E /* Timmo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Timmo.xcdatamodel; sourceTree = "<group>"; };
 		CE348D5C2674C39D003ED28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE348D612674C39F003ED28E /* TimmoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimmoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE348D652674C39F003ED28E /* TimmoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmoTests.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		CE348D6C2674C39F003ED28E /* TimmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE348D702674C39F003ED28E /* TimmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmoUITests.swift; sourceTree = "<group>"; };
 		CE348D722674C39F003ED28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE42AF032680B8EA00E5F22B /* Timmo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Timmo.xcdatamodel; sourceTree = "<group>"; };
+		CE99BAE22674E45B0026A5E1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CE99BAEA2674EBD80026A5E1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		CE99BAEF2674F8510026A5E1 /* timmoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timmoData.json; sourceTree = "<group>"; };
+		CE99BAF42674F8940026A5E1 /* Timmo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timmo.swift; sourceTree = "<group>"; };
+		CE99BAF92674FA550026A5E1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		CE99BB0A2674FCE20026A5E1 /* TimmoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmoRow.swift; sourceTree = "<group>"; };
+		CE99BB0F267500A70026A5E1 /* TimmoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmoList.swift; sourceTree = "<group>"; };
+		CE99BB1426750B020026A5E1 /* TimmoDocMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimmoDocMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +115,14 @@
 		CE348D4D2674C38E003ED28E /* Timmo */ = {
 			isa = PBXGroup;
 			children = (
+				CE42AF022680B8EA00E5F22B /* Timmo.xcdatamodeld */,
 				CE348D4E2674C38E003ED28E /* TimmoApp.swift */,
-				CE348D502674C38E003ED28E /* ContentView.swift */,
+				CE99BAFF2674FC5A0026A5E1 /* Views */,
+				CE99BB032674FC700026A5E1 /* Model */,
+				CE99BAFE2674FC110026A5E1 /* Resources */,
 				CE348D522674C39C003ED28E /* Assets.xcassets */,
 				CE348D572674C39D003ED28E /* Persistence.swift */,
 				CE348D5C2674C39D003ED28E /* Info.plist */,
-				CE348D592674C39D003ED28E /* Timmo.xcdatamodeld */,
 				CE348D542674C39C003ED28E /* Preview Content */,
 			);
 			path = Timmo;
@@ -134,6 +152,36 @@
 				CE348D722674C39F003ED28E /* Info.plist */,
 			);
 			path = TimmoUITests;
+			sourceTree = "<group>";
+		};
+		CE99BAFE2674FC110026A5E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE99BAEF2674F8510026A5E1 /* timmoData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE99BAFF2674FC5A0026A5E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE348D502674C38E003ED28E /* ContentView.swift */,
+				CE99BAE22674E45B0026A5E1 /* CircleImage.swift */,
+				CE99BAEA2674EBD80026A5E1 /* MapView.swift */,
+				CE99BB0A2674FCE20026A5E1 /* TimmoRow.swift */,
+				CE99BB0F267500A70026A5E1 /* TimmoList.swift */,
+				CE99BB1426750B020026A5E1 /* TimmoDocMain.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE99BB032674FC700026A5E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE99BAF42674F8940026A5E1 /* Timmo.swift */,
+				CE99BAF92674FA550026A5E1 /* ModelData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +289,7 @@
 			files = (
 				CE348D562674C39D003ED28E /* Preview Assets.xcassets in Resources */,
 				CE348D532674C39C003ED28E /* Assets.xcassets in Resources */,
+				CE99BAF02674F8520026A5E1 /* timmoData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +314,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE348D5B2674C39D003ED28E /* Timmo.xcdatamodeld in Sources */,
+				CE99BB0B2674FCE20026A5E1 /* TimmoRow.swift in Sources */,
+				CE99BB1526750B020026A5E1 /* TimmoDocMain.swift in Sources */,
+				CE42AF042680B8EB00E5F22B /* Timmo.xcdatamodeld in Sources */,
+				CE99BAE32674E4660026A5E1 /* CircleImage.swift in Sources */,
+				CE99BAEB2674EBD90026A5E1 /* MapView.swift in Sources */,
+				CE99BAF52674F8940026A5E1 /* Timmo.swift in Sources */,
 				CE348D582674C39D003ED28E /* Persistence.swift in Sources */,
+				CE99BAFA2674FA560026A5E1 /* ModelData.swift in Sources */,
 				CE348D512674C38E003ED28E /* ContentView.swift in Sources */,
+				CE99BB10267500A80026A5E1 /* TimmoList.swift in Sources */,
 				CE348D4F2674C38E003ED28E /* TimmoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -590,12 +646,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CE348D592674C39D003ED28E /* Timmo.xcdatamodeld */ = {
+		CE42AF022680B8EA00E5F22B /* Timmo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CE348D5A2674C39D003ED28E /* Timmo.xcdatamodel */,
+				CE42AF032680B8EA00E5F22B /* Timmo.xcdatamodel */,
 			);
-			currentVersion = CE348D5A2674C39D003ED28E /* Timmo.xcdatamodel */;
+			currentVersion = CE42AF032680B8EA00E5F22B /* Timmo.xcdatamodel */;
 			path = Timmo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

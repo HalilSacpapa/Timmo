@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TimmoDocMain.swift
 //  Timmo
 //
 //  Created by Sacpapa on 12/06/2021.
@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct TimmoDocMain: View {
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -17,23 +17,36 @@ struct ContentView: View {
     private var items: FetchedResults<Item>
 
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-            }
-            .onDelete(perform: deleteItems)
-        }
-        .toolbar {
-            #if os(iOS)
-            EditButton()
-            #endif
+        VStack {
+            Text("Fiches descriptive")
+                .font(.title)
+                .padding(-10)
+            NavigationView {
+                VStack {
+                    List {
+                        ForEach(items) { item in
+                            Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                        }
+                        .onDelete(perform: deleteItems)
+                    }
+                }
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        #if os(iOS)
+                        EditButton()
+                        #endif
+                    }
 
-            Button(action: addItem) {
-                Label("Add Item", systemImage: "plus")
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: addItem) {
+                            Label("Add Item", systemImage: "plus")
+                        }
+                    }
+                }
             }
         }
     }
-
+    
     private func addItem() {
         withAnimation {
             let newItem = Item(context: viewContext)
@@ -73,8 +86,8 @@ private let itemFormatter: DateFormatter = {
     return formatter
 }()
 
-struct ContentView_Previews: PreviewProvider {
+struct TimmoDocMain_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        TimmoDocMain()
     }
 }
